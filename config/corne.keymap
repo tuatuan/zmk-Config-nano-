@@ -120,10 +120,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL        &kp AT        &kp HASH       &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &kp DEL
-&kp LCTRL  &bt BT_SEL 0    &bt BT_SEL 4  &bt BT_SEL 3   &bt BT_SEL 2  &bt BT_SEL 1    &kp MINUS  &kp PLUS   &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
-&sk LSHFT  &bt BT_CLR_ALL  &bt BT_CLR    &trans         &bt BT_PRV    &bt BT_NXT      &kp UNDER  &kp EQUAL  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
-                                         &adjust_layer  &trans        &kp SPACE       &kp RET    &trans     &kp RALT
+       &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp UP       &kp LPAR           &kp RPAR  &kp BACKSPACE
+       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp RCLK  &kp LEFT         &kp DOWN      &kp RIGHT  &kp SINGLE_QUOTE        &trans
+       &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)     &trans    &kp C_PREV    &kp C_PP    &kp C_NEXT   &trans    &trans
+                                      &trans    &trans     &trans   &trans  &trans           &trans
             >;
         };
 
