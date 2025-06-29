@@ -103,10 +103,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE     &kp Q     &kp UP_ARROW  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &kp HOME   &kp BSPC
-&kp LEFT_ALT  &kp LEFT  &kp DOWN      &kp RIGHT     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &kp PG_UP  &kp PRINTSCREEN
-&kp CAPS      &kp HOME  &kp F2        &kp LCTRL     &kp LEFT_SHIFT  &kp ENTER       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &kp PG_DN  &kp RIGHT_SHIFT
-                                      &sk LGUI      &trans          &kp SPACE       &kp RET       &kp N0        &kp RALT
+&kp GRAVE       &kp N1    &kp N2     &kp N3        &kp N4     &kp N5       &kp N6                &kp N7                 &kp N8          &kp N9            &kp N0             &kp BSPC
+&kp LEFT_SHIFT  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp SLASH  &kp EQUAL    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp DOUBLE_QUOTES  &kp TILDE
+&kp LCTRL       &trans    &trans     &trans        &trans     &trans       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN  &kp PIPE           &kp UNDERSCORE
+                                     &sk LGUI      &trans     &trans       &trans                &trans                 &trans
             >;
         };
 
