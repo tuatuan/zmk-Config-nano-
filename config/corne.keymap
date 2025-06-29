@@ -86,10 +86,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-   &kp TAB   &kp Q   &kp W     &kp E   &kp R           &kp T            &kp Y   &kp U        &kp I     &kp O     &kp P  &kp BACKSPACE
- &kp LSHFT   &kp A   &kp S     &kp D   &kp F           &kp G            &kp H   &kp J        &kp K     &kp L    &kp SEMI      &kp ENTER
- &kp LCTRL   &kp Z   &kp X     &kp C   &kp V           &kp B            &kp N   &kp M    &kp COMMA  &kp DOT  &kp FSLH      &kp LGUI
-                            &kp LALT  &kp SPACE   &mo raise_layer  &kp LSHFT   &mo lower_layer  &mo adjust_layer
+&kp ESC    &kp Q  &kp W  &kp E      &kp R         &kp T        &kp Y    &kp U         &kp I          &kp O    &kp P     &kp BSPC
+&kp LSHFT    &kp A  &kp S  &kp D      &kp F         &kp G        &kp H    &kp J         &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C      &kp V         &kp B        &kp N    &kp M         &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                         &kp LALT  &kp SPACE  &kp raise_layer    &kp RET  &lower_layer  &kp adjust_layer
             >;
         };
 
@@ -103,10 +103,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
- &kp ESC        &kp N1        &kp N2        &kp N3        &kp N4             &kp N5           &kp N6           &kp N7           &kp N8         &kp N9            &kp N0  &kp BACKSPACE
-   &mo SHIFT  &kp PLUS  &kp MINUS  &kp KP_MULTIPLY  &kp SLASH  &kp EQUAL  &kp LPAR  &kp RPAR    &kp LBRC  &kp RBRC  &kp DOUBLE_QUOTES  &kp GRAVE
-  &trans  &trans  &trans  &trans  &trans  &trans      &kp LBKT  &kp RBKT    &kp LT    &kp GT           &kp PIPE     &kp UNDERSCORE
-                                            &trans        &trans  &trans           &trans      &trans  &hm RCTRL INSERT
+&kp GRAVE     &kp Q     &kp UP_ARROW  &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans      &kp HOME   &kp BSPC
+&kp LEFT_ALT  &kp LEFT  &kp DOWN      &kp RIGHT     &kp NUMBER_4    &kp NUMBER_5    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD  &kp PG_UP  &kp PRINTSCREEN
+&kp CAPS      &kp HOME  &kp F2        &kp LCTRL     &kp LEFT_SHIFT  &kp ENTER       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans      &kp PG_DN  &kp RIGHT_SHIFT
+                                      &sk LGUI      &trans          &kp SPACE       &kp RET       &kp N0        &kp RALT
             >;
         };
 
@@ -120,10 +120,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-       &kp TILDE  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS  &kp UP       &kp LPAR           &kp RPAR  &kp BACKSPACE
-       &trans    &mwh SCROLL_VERT(-15)  &mwh SCROLL_VERT(15)       &mmv MOVE_VERT(-1500)  &mkp LCLK  &mkp RCLK     &mkp RCLK  &kp LEFT         &kp DOWN      &kp RIGHT  &kp SINGLE_QUOTE        &trans
-       &trans    &mwh SCROLL_HOR(-15)        &mmv MOVE_HOR(-1500)        &mmv MOVE_VERT(1500)        &mmv MOVE_HOR(1500)        &mwh SCROLL_HOR(15)     &trans    &kp C_PREV    &kp C_PP    &kp C_NEXT   &trans    &trans
-                                      &trans    &trans     &trans   &trans  &trans           &trans
+&kp TAB    &kp EXCL        &kp AT        &kp HASH       &kp DLLR      &kp PRCNT       &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &kp DEL
+&kp LCTRL  &bt BT_SEL 0    &bt BT_SEL 4  &bt BT_SEL 3   &bt BT_SEL 2  &bt BT_SEL 1    &kp MINUS  &kp PLUS   &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
+&sk LSHFT  &bt BT_CLR_ALL  &bt BT_CLR    &trans         &bt BT_PRV    &bt BT_NXT      &kp UNDER  &kp EQUAL  &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
+                                         &adjust_layer  &trans        &kp SPACE       &kp RET    &trans     &kp RALT
             >;
         };
 
